@@ -1,0 +1,32 @@
+{
+  "empty_username": {
+    "username": "",
+    "password": "a123456",
+    "checkcode": "888888"
+  },
+  "empty_password": {
+    "username": "qpadmin",
+    "password": "",
+    "checkcode": "888888"
+  },
+  "empty_checkcode": {
+    "username": "qpadmin",
+    "password": "a123456",
+    "checkcode": ""
+  },
+  "wrong_username": {
+    "username": "qpadmin1",
+    "password": "a123456",
+    "checkcode": "888888"
+  },
+  "wrong_password": {
+    "username": "qpadmin",
+    "password": "a12345678",
+    "checkcode": "888888"
+  },
+  "right_data": {
+    "username": "qpadmin",
+    "password": "a123456",
+    "checkcode": "888888"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "nor_in":{
+    "key_name": "王",
+    "expect": "王小可",
+    "column_name": "客户名称"
+  },
+  "in":{
+    "key_name": "吴",
+    "expect": "202012252",
+    "column_name": "证件号"
+  }
+}
