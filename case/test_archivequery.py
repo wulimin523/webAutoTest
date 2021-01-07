@@ -37,7 +37,7 @@ class ArchiveQuery(unittest.TestCase):
         # cls.loginproxy = LoginProxy()
         # cls.loginproxy.login('qpadmin', 'a123456', '6666')
         cls.menu = MenuProxy(["账户管理", "档案管理", "档案查询"])
-        time.sleep( 2 )
+        time.sleep(2)
         cls.menu.click_menu()
         cls.aqproxy = ArchiveQueryProxy()
 
@@ -48,7 +48,7 @@ class ArchiveQuery(unittest.TestCase):
     @parameterized.expand(build_archive1_data())
     def test_queryarchive(self, key_name, expect, column_name):
         self.aqproxy.queryarchive(key_name)
-        time.sleep( 2 )
+        time.sleep(2)
         # 无可显示数据！
         self.assertIn(expect, self.aqproxy.viewresult(column_name))
 
