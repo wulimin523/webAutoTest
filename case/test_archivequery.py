@@ -43,8 +43,7 @@ class ArchiveQuery(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
-        # DriverUtil.quit_driver()
-        ...
+        DriverUtil.quit_driver()
 
     @parameterized.expand(build_archive1_data())
     def test_queryarchive(self, key_name, expect, column_name):
@@ -52,10 +51,6 @@ class ArchiveQuery(unittest.TestCase):
         time.sleep( 2 )
         # 无可显示数据！
         self.assertIn(expect, self.aqproxy.viewresult(column_name))
-
-        # self.aqproxy.queryarchive('吴')
-        # # self.assertIn( '吴23', self.aqproxy.viewresult('客户名称') )
-        # self.assertIn( '1100291', self.aqproxy.viewresult( '证件号' ) )
 
 if __name__ == '__main__':
     unittest.main()
