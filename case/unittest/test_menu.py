@@ -20,7 +20,7 @@ from page.menu_page import MenuProxy
 
 
 def build_menu_data():
-    with open('../data/menu_data.json', encoding='utf-8') as f:
+    with open( '../../data/menu_data.json', encoding='utf-8' ) as f:
         data = json.load(f)
         data_list = list()
         for k, v in data.items():

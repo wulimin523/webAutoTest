@@ -11,10 +11,8 @@
 """
 import unittest
 import config
-from case.test_archivequery import ArchiveQuery
-from case.test_login import TestLogin
-from case.test_menu import TestMenu
-from case.test_addarchive import AddArchive
+from case.unittest.test_archivequery import TestArchiveQuery
+from case.unittest.test_login import TestLogin
 from common.utils import DriverUtil
 from HwTestReport import HTMLTestReport
 
@@ -23,7 +21,7 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.TestLoader().loadTestsFromTestCase(TestLogin))
 # suite.addTest(unittest.TestLoader().loadTestsFromTestCase(TestMenu))
 # suite.addTest(unittest.TestLoader().loadTestsFromTestCase(AddArchive))
-suite.addTest(unittest.TestLoader().loadTestsFromTestCase(ArchiveQuery))
+suite.addTest(unittest.TestLoader().loadTestsFromTestCase(TestArchiveQuery))
 
 DriverUtil.change_auto_quit(False)
 

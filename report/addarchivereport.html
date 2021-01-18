@@ -311,9 +311,9 @@ a.popup_link:hover {
         </h1>
         <div style="float:left;width:50%;">
             <p class='parameters'> <p class='attribute'><strong>测试人员:</strong> 吴利民</p>
-<p class='attribute'><strong>开始时间:</strong> 2021-01-07 10:24:13</p>
-<p class='attribute'><strong>运行时长:</strong> 0:01:25.390603</p>
-<p class='attribute'><strong>测试结果:</strong> 共 3  通过 2 失败 1  通过率:66.7%</p>
+<p class='attribute'><strong>开始时间:</strong> 2021-01-15 18:37:33</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:30.537346</p>
+<p class='attribute'><strong>测试结果:</strong> 共 2  通过 1 错误 1  通过率:50.0%</p>
 </p>
             <br>
             <br>
@@ -387,64 +387,51 @@ pt1_1: qpadmin a123456 888888
     <td>没有截图</td>
 </tr>
 
-<tr class='failClass'>
-    <td>case.test_archivequery.ArchiveQuery</td>
-    <td>2</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>unittest.suite._ErrorHolder</td>
     <td>1</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',2)">详情</a></td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
-<tr id='ft2_1' class='none'>
-    <td class='failCase'><div class='testcase'>test_queryarchive_0__</div></td>
+<tr id='et2_1' class='none'>
+    <td class='errorCase'><div class='testcase'>TestArchiveQuery)</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2_1')" >
-        失败</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_et2_1')" >
+        错误</a>
 
-    <div id='div_ft2_1' class="popup_window">
+    <div id='div_et2_1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2_1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_et2_1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2_1: &lt;selenium.webdriver.firefox.webelement.FirefoxWebElement (session="d866e9e0-fba5-48c1-9148-86b62b718f07", element="2af341c2-32ed-4a8a-9c0e-27385df195e2")&gt;
+et2_1: qpadmin a123456 888888
 Traceback (most recent call last):
-  File "D:\Program Files\Python39\lib\site-packages\parameterized\parameterized.py", line 530, in standalone_func
-    return func(*(a + p.args), **p.kwargs)
-  File "E:\job\workspaces\python\webAutoTest\case\test_archivequery.py", line 54, in test_queryarchive
-    self.assertIn(expect, self.aqproxy.viewresult(column_name))
-AssertionError: '王小可' not found in []
+  File "E:\job\workspaces\python\webAutoTest\case\test_archivequery.py", line 38, in setUpClass
+    cls.loginproxy.login('qpadmin', 'a123456', '6666')
+  File "E:\job\workspaces\python\webAutoTest\page\login_page.py", line 61, in login
+    self.login_handle.input_username(username)
+  File "E:\job\workspaces\python\webAutoTest\page\login_page.py", line 42, in input_username
+    self.input_text(self.login_page.find_username(), text)
+  File "E:\job\workspaces\python\webAutoTest\page\login_page.py", line 25, in find_username
+    return self.find_element_func(self.username)
+  File "E:\job\workspaces\python\webAutoTest\base\base_page.py", line 28, in find_element_func
+    return self.driver.find_element( *location )
+  File "D:\Program Files\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\Program Files\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="username"]
 
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-    <td>没有截图</td>
-</tr>
-
-<tr id='pt2_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_queryarchive_1__</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2_2')" >
-        通过</a>
-
-    <div id='div_pt2_2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2_2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt2_2: &lt;selenium.webdriver.firefox.webelement.FirefoxWebElement (session="d866e9e0-fba5-48c1-9148-86b62b718f07", element="2af341c2-32ed-4a8a-9c0e-27385df195e2")&gt;
 
 
         </pre>
@@ -457,11 +444,11 @@ pt2_2: &lt;selenium.webdriver.firefox.webelement.FirefoxWebElement (session="d86
 
 <tr id='total_row'>
     <td>总计</td>
-    <td>3</td>
     <td>2</td>
     <td>1</td>
     <td>0</td>
-    <td>通过率：66.7%</td>
+    <td>1</td>
+    <td>通过率：50.0%</td>
     <td>&nbsp;</td>
     
 </tr>
@@ -507,9 +494,9 @@ pt2_2: &lt;selenium.webdriver.firefox.webelement.FirefoxWebElement (session="d86
                         radius : '60%',
                         center: ['50%', '60%'],
                         data:[
-                            {value:2, name:'通过'},
-                            {value:1, name:'失败'},
-                            {value:0, name:'错误'}
+                            {value:1, name:'通过'},
+                            {value:0, name:'失败'},
+                            {value:1, name:'错误'}
                         ],
                         itemStyle: {
                             emphasis: {

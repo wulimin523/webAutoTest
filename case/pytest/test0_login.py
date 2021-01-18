@@ -11,22 +11,18 @@
 """
 import unittest
 import json
-from base import *
-# from time import sleep,time
-import logging
-import time
-from common.utils import save_webImgs
 
-from base.base_page import BasePage
+import pytest
+
+import config
+
 from page.login_page import LoginProxy
 from common.utils import DriverUtil
 from parameterized import parameterized
 
-from page.menu_page import MenuProxy
-
 
 def build_login_data():
-    with open('../data/login_data.json', encoding='utf-8') as f:
+    with open( '../../data/login_data.json', encoding='utf-8' ) as f:
         data = json.load(f)
         data_list = list()
         for k, v in data.items():
@@ -36,7 +32,7 @@ def build_login_data():
     return data_list
 
 def build_login_rightdata():
-    with open('../data/login_data.json', encoding='utf-8') as f:
+    with open(config.BASE_DIR + '/data/login_data.json', encoding='utf-8') as f:
         data = json.load(f)
         data_list = list()
         for k, v in data.items():
@@ -47,7 +43,7 @@ def build_login_rightdata():
     return data_list
 
 def build_menu_data():
-    with open('../data/menu_data.json', encoding='utf-8') as f:
+    with open(config.BASE_DIR + '/data/menu_data.json', encoding='utf-8') as f:
         data = json.load(f)
         data_list = list()
         for k, v in data.items():
@@ -55,16 +51,17 @@ def build_menu_data():
     return data_list
 
 
-class TestLogin(unittest.TestCase):
+class TestLogin():
     @classmethod
-    def setUpClass(cls) -> None:
+    def setup_class(cls) -> None:
         cls.driver = DriverUtil.get_driver()
         cls.login_proxy = LoginProxy()
         # cls.menu_proxy = MenuProxy(['参数管理', '卡类别设置'])
 
     @classmethod
-    def tearDownClass(cls) -> None:
-        DriverUtil.quit_driver()
+    def teardown_class(cls) -> None:
+        # DriverUtil.quit_driver()
+        pass
 
     # @parameterized.expand(build_login_data())
     # def test_login(self, username, password, checkcode):
@@ -79,12 +76,10 @@ class TestLogin(unittest.TestCase):
     #         # basepage = BasePage()
     #         save_webImgs(model='登录模块')
     #         raise e
-
+    @pytest.mark.run(order=2)
     @parameterized.expand( build_login_rightdata())
     def test_login_right(self, username, password, checkcode):
         print( username, password, checkcode )
         self.login_proxy.login( username, password, checkcode )
 
-if __name__ == '__main__':
-    unittest.main()
 

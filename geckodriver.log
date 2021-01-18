@@ -1,0 +1,256 @@
+1610959860788	geckodriver	INFO	Listening on 127.0.0.1:50913
+1610959863801	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofiledPaiIH"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610959880261	Marionette	INFO	Listening on port 50931
+1610959881067	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610959885249	Marionette	INFO	Stopped listening on port 50931
+JavaScript error: resource://gre/modules/PageThumbUtils.jsm, line 38: TypeError: aWindow is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610960553586	geckodriver	INFO	Listening on 127.0.0.1:55421
+1610960556598	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilej3Xf7B"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610960560440	Marionette	INFO	Listening on port 55429
+1610960560785	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610960565248	Marionette	INFO	Stopped listening on port 55429
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610960742677	geckodriver	INFO	Listening on 127.0.0.1:55567
+1610960745702	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilexIb0Nf"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610960750083	Marionette	INFO	Listening on port 55576
+1610960750461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610960757938	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:26641
+ajax@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:22290
+$scope.initSelect/<@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:806:7
+each@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:2:2881
+$scope.initSelect@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:803:6
+queryarchive/$scope.initTable@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js line 2 > eval:52:13
+functionCall/<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:10567:21
+$eval@https://shqp.dev/WEBICM/js/libs/angular/angular.js:12412:28
+link/<@https://shqp.dev/WEBICM/js/ng/ng.directives.js:1325:13
+timeout/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:14014:28
+completeOutstandingRequest@https://shqp.dev/WEBICM/js/libs/angular/angular.js:4300:10
+Browser/self.defer/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:4601:33
+1610960769102	Marionette	INFO	Stopped listening on port 55576
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610960770497	geckodriver	INFO	Listening on 127.0.0.1:55638
+1610960773501	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileSwbaDO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610960776878	Marionette	INFO	Listening on port 55647
+1610960777193	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610960784877	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:26641
+ajax@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:22290
+$scope.initSelect/<@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:806:7
+each@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:2:2881
+$scope.initSelect@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:803:6
+queryarchive/$scope.initTable@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js line 2 > eval:52:13
+functionCall/<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:10567:21
+$eval@https://shqp.dev/WEBICM/js/libs/angular/angular.js:12412:28
+link/<@https://shqp.dev/WEBICM/js/ng/ng.directives.js:1325:13
+timeout/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:14014:28
+completeOutstandingRequest@https://shqp.dev/WEBICM/js/libs/angular/angular.js:4300:10
+Browser/self.defer/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:4601:33
+1610960789093	Marionette	INFO	Stopped listening on port 55647
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610960790580	geckodriver	INFO	Listening on 127.0.0.1:55693
+1610960793609	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileO6mtPi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610960796938	Marionette	INFO	Listening on port 55701
+1610960797290	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610960804772	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:26641
+ajax@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:22290
+$scope.initSelect/<@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:806:7
+each@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:2:2881
+$scope.initSelect@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:803:6
+queryarchive/$scope.initTable@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js line 2 > eval:52:13
+functionCall/<@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:10567:21
+$eval@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:12412:28
+link/<@https://shqp.dev/WEBICM/js/ng/ng.directives.js:1325:13
+timeout/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:14014:28
+completeOutstandingRequest@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:4300:10
+Browser/self.defer/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:4601:33
+1610960808987	Marionette	INFO	Stopped listening on port 55701
+JavaScript error: chrome://marionette/content/proxy.js, line 218: TypeError: this.browser.driver.dialogObserver is null
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610960810601	geckodriver	INFO	Listening on 127.0.0.1:55750
+1610960813624	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilev0C4CK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610960816779	Marionette	INFO	Listening on port 55758
+1610960816805	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610960821039	Marionette	INFO	Stopped listening on port 55758
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610961002245	geckodriver	INFO	Listening on 127.0.0.1:55890
+1610961005271	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileH1LdTl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610961008606	Marionette	INFO	Listening on port 55899
+1610961008954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610961016049	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:26641
+ajax@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:22290
+$scope.initSelect/<@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:806:7
+each@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:2:2881
+$scope.initSelect@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:803:6
+queryarchive/$scope.initTable@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js line 2 > eval:52:13
+functionCall/<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:10567:21
+$eval@https://shqp.dev/WEBICM/js/libs/angular/angular.js:12412:28
+link/<@https://shqp.dev/WEBICM/js/ng/ng.directives.js:1325:13
+timeout/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:14014:28
+completeOutstandingRequest@https://shqp.dev/WEBICM/js/libs/angular/angular.js:4300:10
+Browser/self.defer/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js:4601:33
+1610961027382	Marionette	INFO	Stopped listening on port 55899
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610961028847	geckodriver	INFO	Listening on 127.0.0.1:55949
+1610961031871	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileE4xZsD"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610961035317	Marionette	INFO	Listening on port 55958
+1610961035591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610961205108	geckodriver	INFO	Listening on 127.0.0.1:56086
+1610961208143	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilePHIvic"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610961211767	Marionette	INFO	Listening on port 56095
+1610961211828	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+1610961233647	Marionette	INFO	Stopped listening on port 56095
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610961241604	geckodriver	INFO	Listening on 127.0.0.1:56176
+1610961244636	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileahOy0M"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610961248177	Marionette	INFO	Listening on port 56184
+1610961248320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610961255204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:26641
+ajax@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:4:22290
+$scope.initSelect/<@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:806:7
+each@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js:2:2881
+$scope.initSelect@https://shqp.dev/WEBICM/js/ng/ng.controllers.js:803:6
+queryarchive/$scope.initTable@https://shqp.dev/WEBICM/js/libs/jquery-1.11.3.js line 2 > eval:52:13
+functionCall/<@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:10567:21
+$eval@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:12412:28
+link/<@https://shqp.dev/WEBICM/js/ng/ng.directives.js:1325:13
+timeout/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:14014:28
+completeOutstandingRequest@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:4300:10
+Browser/self.defer/timeoutId<@https://shqp.dev/WEBICM/js/libs/angular/angular.js line 4 > srcScript:4601:33
+1610961266582	Marionette	INFO	Stopped listening on port 56184
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610961268663	geckodriver	INFO	Listening on 127.0.0.1:56231
+1610961271674	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileRNWkh8"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610961275353	Marionette	INFO	Listening on port 56240
+1610961275868	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://shqp.dev/WEBICM/js/dhtmlxtree/js/dhtmlxtree.js, line 412: unreachable code after return statement
+1610961306567	Marionette	INFO	Stopped listening on port 56240
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

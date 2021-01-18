@@ -10,6 +10,7 @@
 -------------------------------------------------
 """
 import json
+
 from config import BASE_DIR
 import unittest
 import time
@@ -31,11 +32,11 @@ def build_archive1_data():
     return data_list
 
 
-class ArchiveQuery(unittest.TestCase):
+class TestArchiveQuery(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        # cls.loginproxy = LoginProxy()
-        # cls.loginproxy.login('qpadmin', 'a123456', '6666')
+        cls.loginproxy = LoginProxy()
+        cls.loginproxy.login('qpadmin', 'a123456', '6666')
         cls.menu = MenuProxy(["账户管理", "档案管理", "档案查询"])
         time.sleep(2)
         cls.menu.click_menu()
